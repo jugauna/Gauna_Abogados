@@ -254,10 +254,10 @@
 /* -- MOBILE -- */
 @media (max-width: 576px){
     .header_index {
-        min-height: 100vh;    
+        min-height: 120vh;    
     }
     .titulo_inicio{        
-        padding-top: 270px;  
+        padding-top: 340px;  
     }           
     .header_ubicacion{
         min-height: 100vh;        

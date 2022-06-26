@@ -282,7 +282,7 @@
 /* -- MOBILE -- */
 @media (max-width: 576px){
     .titulo_inicio{
-        padding-top: 250px;
+        padding-top: 200px;
     }       
     .header_ubicacion{
         min-height: 100vh;        
@@ -326,7 +326,8 @@
     }
     /* CONTACTO */
     .titulo_contacto{
-        padding-top: 150px; 
+        padding-top: 150px;
+        padding-bottom: 0PX; 
     }
     .contacto_info{
         display: flex;

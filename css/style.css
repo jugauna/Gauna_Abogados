@@ -1,0 +1,360 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* INDEX */
+.header_index {
+    background: url(../img/Fondo_abogados_byn.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 85vh;        
+}
+/* main {
+    --opacidad-negro: 0.7;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/trailers_estacionados.jpg");
+} */
+.navbar-brand{
+    color: white;    
+}
+.navbar-brand:hover{
+    color: #DFF6FF;
+}
+.navbar-nav li{    
+    padding: 10px;
+}
+.nav-item a {
+    font-family: sans-serif !important;
+    color: white !important;    
+}
+.nav-item a:hover{
+    color: #DFF6FF !important;
+}
+.dropdown-menu{
+    background-color: white;    
+}
+.dropdown ul li a{
+    color: #06283D !important;    
+}
+.dropdown ul li a:hover{
+    color: black !important;    
+}
+.barra_menu{
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    background-color: black !important;
+    width: 100%;   
+    position: fixed;
+    z-index: 3;
+    opacity: 0.6;
+}
+.container-fluid{
+    width: 90%;
+}
+.btn{
+    color: #47B5FF;
+}
+.titulo_inicio{
+    color: #DFF6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 350px;
+}
+.btn_titulo{
+    color: #47B5FF;
+}
+/* === MAIN INDEX === */
+.flex-container {
+    background-color: #06283D;
+    display: flex;
+    height: 120px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+.flex-item {
+    background-color: #06283D;
+    color: #47B5FF;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    align-content: center;
+}
+.flex-item i {
+    text-align: center; 
+    padding-bottom: 10px;   
+}
+.flex-item p {
+    text-align: center;
+    height: 15px;
+    font-size: 14px;
+}
+/* FOOTER INDEX-------- */
+.pie {
+    width: 100%;
+    height: 60px;
+    background-color: black;  
+    display: flex;
+    align-items: center; 
+}
+.pie .container_footer {    
+    display: flex; 
+    flex: 1 1 auto;
+}
+.box{
+    display: flex;
+    flex: 1 1 auto; 
+    justify-content: center;    
+}
+.pie .small{      
+    color: #47B5FF;    
+    letter-spacing: 1px;
+    font-family: sans-serif;    
+}
+.pie .container_footer .redes a {    
+    text-decoration: none;
+    width: 70px;    
+    color: #47B5FF;
+    text-align: center;    
+}
+.pie .container_footer .redes a:hover {
+    color: white;
+} 
+/* UBICACION */
+.header_ubicacion {
+    background: url(../img/Fondo_abogados_byn.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 120vh;    
+}
+.titulo_ubicacion{
+    color: #DFF6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 60px;
+}
+.titulo_ubicacion2{
+    color: #DFF6FF;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-bottom: 30px;        
+}
+.map-responsive iframe{
+    width: 100%;
+    height: 600px;    
+}
+.map-responsive{
+    display: flex;
+    justify-content: center;
+    padding-bottom:70px;
+}
+/* CONTACTO */
+.header_contacto {
+    --opacidad-negro: 0.2;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/Fondo_abogados_byn.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+.titulo_contacto{
+    color: #DFF6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+}
+.contacto_info{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px;    
+}
+.section_contacto{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.flex_item_contacto {
+    color: white;    
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    align-content: center;    
+}
+.flex_item_contacto i {
+    text-align: center; 
+    padding-top: 30px;   
+}
+.flex_item_contacto p {
+    text-align: center;
+    height: 15px;
+    font-size: 18px;    
+}
+.section_form{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;    
+}
+.formulario{
+    width: 70%;    
+}
+.form-label {
+    color: #DFF6FF;
+}
+.form-check-label{
+    color: #DFF6FF;
+}
+.boton{
+    padding-top: 20px;
+}
+/* NOSOTROS */
+.header_nosotros {
+    background: url(../img/Fondo_abogados_byn.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 130vh;      
+}
+.titulo_nosotros{
+    color: #DFF6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 60px;    
+}
+.titulo_nosotros2{
+    color: #DFF6FF;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-bottom: 30px;        
+}
+.titulo_nosotros .blockquote h2{
+    text-align: center;
+    width: 60%;
+    font-size: 25px;
+}
+.img_nosotros{
+    display: flex;
+    align-items: center;
+}
+.img_nosotros img {
+    min-height: 70%;     
+}
+.texto_nosotros{
+    text-align: center;
+}
+.card-title{
+    padding-bottom: 10px;
+}
+.card-text{    
+    text-align: justify;
+    max-width: 90%;
+    padding-left: 12%;    
+}    
+/* AREAS DE PRACTICA */
+.header_areas {
+    background: url(../img/Fondo_abogados_byn.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 130vh;      
+}
+.titulo_areas{
+    color: #DFF6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 50px;    
+}
+.row_areas{
+    padding-bottom: 50px;    
+}
+
+/* -- MOBILE -- */
+@media (max-width: 576px) {
+    .header_index {
+        min-height: 90vh;        
+    }
+    .header_ubicacion {
+        min-height: 100vh;        
+    }
+    .navbar {
+        opacity: 0.7;
+    }
+    .white{
+        color: white;
+        background-color: white;
+    }
+    .navbar-collapse{
+        background-color: black ;
+        width: 50px !important;        
+    }
+    .map-responsive iframe{
+        height: 400px;    
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column; 
+        padding-top: 40px;        
+        height: 420px;
+        gap: 20px;
+    }
+    .flex-item i {
+        padding-bottom: 9px;   
+    }
+    .flex-item p {
+        height: 15px;
+        font-size: 14px;
+    }
+    /* CONTACTO */
+    .titulo_contacto{
+        padding-top: 150px; 
+    }
+    .contacto_info{
+        display: flex;
+        flex-direction: column;           
+    }    
+    .flex_item_contacto i {
+        padding-top: 40px;   
+    }
+    .boton{
+        padding-bottom: 30px;
+    }
+    /* nosotros */
+    .header_nosotros {
+        min-height: 200vh;    
+    }
+}
+
+/* -- TABLET -- */
+@media (min-width: 576px) and (max-width: 992px) {
+    .white{
+        color: white;
+        background-color: white;
+    }
+    .flex-item i {
+        padding-bottom: 5px;   
+    }
+    .flex-item p {
+        height: 12px;
+        font-size: 12px;
+    }
+    .card-body p{
+        font-size: 14px;
+    }    
+    .header_nosotros {
+        min-height: 170vh;    
+    }
+}
+
+/* -- DESKTOP -- */
+@media (min-width: 992px) {        
+}
+
+

@@ -281,12 +281,16 @@
 
 /* -- MOBILE -- */
 @media (max-width: 576px) {
-    .header_index {
-        min-height: 135vh;        
-    }
-    /* .header_nosotros{
-        min-height: 90vh;        
+    /* .header_index {
+        min-height: 100vh;        
     } */
+    .titulo_inicio{
+        padding-top: 250px;
+    }
+    .titulo_nosotros{
+        padding-top: 250px;
+    }
+    
     .header_ubicacion {
         min-height: 100vh;        
     }
@@ -343,7 +347,7 @@
     }
     /* nosotros */
     .header_nosotros {
-        min-height: 200vh;    
+        min-height: 190vh;    
     }
 }
 
@@ -355,6 +359,9 @@
     }
     .container-fluid{
         width: 100%;
+    }
+    .titulo_inicio{
+        padding-top: 250px;
     }
     .pie .container_footer .redes a {        
         width: 60px;               
@@ -372,7 +379,7 @@
     }    
     .header_nosotros {
         min-height: 170vh;    
-    }
+    } 
 }
 
 /* -- DESKTOP -- */

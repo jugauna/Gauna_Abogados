@@ -282,10 +282,10 @@
 /* -- MOBILE -- */
 @media (max-width: 576px){
     .header_index {
-        min-height: 150vh;    
+        min-height: 70vh;    
     }
     .titulo_inicio{        
-        padding-top: 200px;  
+        padding-top: 210px;  
     }           
     .header_ubicacion{
         min-height: 100vh;        
@@ -316,9 +316,9 @@
     .flex-container {
         display: flex;
         flex-direction: column; 
-        padding-top: 40px;        
+        /* padding-top: 40px; */        
         height: 420px;
-        gap: 20px;
+        gap: 20px; */
     }
     .flex-item i {
         padding-bottom: 9px;   
@@ -363,6 +363,7 @@
     .titulo_inicio{
         padding-top: 250px;
     }    
+    
     .pie .container_footer .redes a {        
         width: 60px;               
     }    

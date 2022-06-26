@@ -282,8 +282,11 @@
 /* -- MOBILE -- */
 @media (max-width: 576px) {
     .header_index {
-        min-height: 100vh;        
+        min-height: 135vh;        
     }
+    /* .header_nosotros{
+        min-height: 90vh;        
+    } */
     .header_ubicacion {
         min-height: 100vh;        
     }

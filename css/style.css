@@ -113,10 +113,12 @@
     flex: 1 1 auto; 
     justify-content: center;    
 }
-.pie .small{      
+.small{      
     color: #47B5FF;    
     letter-spacing: 1px;
-    font-family: sans-serif;    
+    font-family: sans-serif; 
+    font-size: 16px;
+
 }
 .pie .container_footer .redes a {    
     text-decoration: none;
@@ -290,6 +292,9 @@
     .pie .container_footer .redes a {        
         width: 50px;               
     }
+    .small{      
+        font-size: 12px;            
+    }
     .navbar {
         opacity: 0.7;
     }
@@ -350,6 +355,7 @@
     .pie .container_footer .redes a {        
         width: 60px;               
     }
+    
     .flex-item i {
         padding-bottom: 5px;   
     }

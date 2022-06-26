@@ -111,7 +111,8 @@
 .box{
     display: flex;
     flex: 1 1 auto; 
-    justify-content: center;    
+    justify-content: center; 
+    align-items: center;
 }
 .small{      
     color: #47B5FF;    
@@ -281,7 +282,7 @@
 /* -- MOBILE -- */
 @media (max-width: 576px) {
     .header_index {
-        min-height: 90vh;        
+        min-height: 100vh;        
     }
     .header_ubicacion {
         min-height: 100vh;        

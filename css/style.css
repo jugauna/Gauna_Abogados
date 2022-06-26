@@ -284,6 +284,9 @@
     .header_ubicacion {
         min-height: 100vh;        
     }
+    .container-fluid{
+        width: 100%;
+    }
     .navbar {
         opacity: 0.7;
     }

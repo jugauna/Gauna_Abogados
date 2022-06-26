@@ -9,7 +9,7 @@
 .header_index {
     background: url(../img/Fondo_abogados_byn.jpg) no-repeat center;
     background-size: cover;
-    min-height: 85vh;        
+    min-height: 100vh;        
 }
 /* main {
     --opacidad-negro: 0.7;
@@ -67,35 +67,7 @@
 .btn_titulo{
     color: #47B5FF;
 }
-/* === MAIN INDEX === */
-.flex-container {
-    background-color: #06283D;
-    display: flex;
-    height: 120px;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    align-content: center; 
-}
-.flex-item {
-    background-color: #06283D;
-    color: #47B5FF;
-    width: 300px;
-    height: auto;
-    display: flex;
-    flex-direction: column;    
-    align-items: center;
-    align-content: center;
-}
-.flex-item i {
-    text-align: center; 
-    padding-bottom: 10px;   
-}
-.flex-item p {
-    text-align: center;
-    height: 15px;
-    font-size: 14px;
-}
+
 /* FOOTER INDEX-------- */
 .pie {
     width: 100%;
@@ -282,10 +254,10 @@
 /* -- MOBILE -- */
 @media (max-width: 576px){
     .header_index {
-        min-height: 70vh;    
+        min-height: 100vh;    
     }
     .titulo_inicio{        
-        padding-top: 210px;  
+        padding-top: 270px;  
     }           
     .header_ubicacion{
         min-height: 100vh;        
@@ -312,14 +284,7 @@
     }
     .map-responsive iframe{
         height: 400px;    
-    }
-    .flex-container {
-        display: flex;
-        flex-direction: column; 
-        /* padding-top: 40px; */        
-        height: 480px;
-        /*gap: 20px;  */
-    }
+    }    
     .flex-item i {
         padding-bottom: 9px;   
     }
